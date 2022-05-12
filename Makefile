@@ -1,7 +1,7 @@
 objects = main.o Control.o Airline.o Part.o Date.o Aircraft.o View.o
 
 pcs: $(objects)
-	g++ -o a4 $(objects)
+	g++ -o pcs $(objects)
 
 main.o: main.cc 
 	g++ -c main.cc 
